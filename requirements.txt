@@ -1,0 +1,9 @@
+ultralytics>=8.0.0      # The official YOLOv8 library (includes PyTorch)
+opencv-python>=4.8.0    # For image processing (loading/resizing/drawing boxes)
+numpy>=1.23.0           # Matrix operations (essential for image arrays)
+pandas>=2.0.0           # For reading dataset CSVs/annotations if needed
+matplotlib>=3.7.0       # For plotting training loss graphs and sample detections
+Pillow>=9.5.0           # Python Imaging Library (often used alongside OpenCV)
+tqdm                    # Progress bars (useful during long training epochs)
+pyyaml                  # For reading the data.yaml config file required by YOLO
+requests                # If you need to download weights or data programmatically
